@@ -6,13 +6,13 @@ Help Alzar, the record keeper for finding lost details of 3.5k houses with the h
 ### Installation
 * Clone repository and run **feature_extraction.py** to create all_data.csv dataset. (Change the paths of all files accessed in *feature_extraction.py* to local paths on your machine first)
   * Dataset is given in form of text files so preprocessing is required to convert them into `csv file`
-  *`feature_extraction.py` extracts data from text files and make `all_data.csv`.
+  * `feature_extraction.py` extracts data from text files and make `all_data.csv`.
 
 ### Requirements
 * This problem statement uses **xgboost Regressor** so it must be installed through either of these ways.
   * **Using pip-** `pip install xgboost`
   * **Using conda-** `conda install -c py-xgboost`
-* Python3 is preferred for this project.
+* Python2.7 is preferred for this project.
 
 ### Usage
 * Run `feature_extraction.py`to create dataset from raw text files to processed csv files.
