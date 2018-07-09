@@ -32,3 +32,4 @@ Help Alzar, the record keeper for finding lost details of 3.5k houses with the h
 * With the help of `xgboost regressor` we are able to achieve r2_score of **0.99512**.
 * `Solution.csv` is also given in repository to match results of test dataset.
 * xgboost with tuned parameters gives final `r2_score` of **0.99553** on test dataset.
+### Note : For avoiding errors update the file's path accessed in feature_extraction.py, feature_analysis.py and regression.py
