@@ -1,5 +1,6 @@
 import csv
 import pandas as pd 
+import sklearn as sk
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import LassoCV
