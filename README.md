@@ -26,6 +26,8 @@ Help Alzar, the record keeper for finding lost details of 3.5k houses with the h
 * Running `regression.py`
   * This gives detail `r2_score analysis` after tuning hyperparameters of different types of regressions.
   * This will run `cross validation` across the training set on **LinearRegression**, **LassoRegression**, **Ridge Regression** and **xgboost Regression** and prints `r2_score`.
+  <!-- WHY r2_score? -->
+  * R-squared or `r2_score` is a statistical measure of how close the data are to the fitted regression line.
 
 
 ### Results
